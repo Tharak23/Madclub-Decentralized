@@ -1,4 +1,4 @@
-# Madclub-Decentralized
+# Madclub-Decentralized-Credit-Scoring-System
 🌟 Decentralized Credit Scoring System 🌟
 Welcome to the Decentralized Credit Scoring System project! This innovative solution leverages blockchain technology to provide a transparent, secure, and immutable credit scoring mechanism. Our system integrates various data sources through APIs to gather and validate comprehensive financial and non-financial data, ensuring accurate credit assessments.
 
