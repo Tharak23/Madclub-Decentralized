@@ -32,20 +32,17 @@ Ganache
 Steps
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/yourusername/decentralized-credit-scoring.git
 cd decentralized-credit-scoring
 Install backend dependencies:
 
-bash
-Copy code
+
 cd backend
 pip install -r requirements.txt
 Install frontend dependencies:
 
-bash
-Copy code
+
 cd frontend
 npm install
 Setup PostgreSQL:
@@ -54,19 +51,13 @@ Create a database named credit_scoring.
 Update the database configuration in backend/config.py.
 Run migrations:
 
-bash
-Copy code
 cd backend
 flask db upgrade
 Start the backend server:
 
-bash
-Copy code
 flask run
 Start the frontend server:
 
-bash
-Copy code
 cd frontend
 npm start
 Deploy Smart Contracts:
@@ -76,12 +67,14 @@ Deploy contracts using Truffle
 bash
 Copy code
 truffle migrate --reset
+
 📂 Project Structure
 backend/: Contains the Flask backend code.
 frontend/: Contains the React frontend code.
 contracts/: Contains the Solidity smart contracts.
 migrations/: Database migration files.
 tests/: Test cases for the backend and contracts.
+
 🌍 Contributing
 We welcome contributions from the community! Please fork the repository and submit pull requests.
 
