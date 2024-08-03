@@ -32,6 +32,35 @@ Ganache
 Steps
 Clone the repository:
 
+# Decentralized Credit Scoring System
+
+## Introduction
+This project is a decentralized credit scoring system built using Flask for the backend, React for the frontend, and Solidity for the smart contracts. The project integrates external APIs to gather financial and non-financial data to calculate credit scores stored on the blockchain for transparency and security.
+
+## Technology Stack
+- **Frontend**: React
+- **Backend**: Flask
+- **Blockchain**: Solidity, Web3, Truffle
+- **Database**: SQLite (for initial prototyping)
+
+## Features
+- User registration and login
+- Credit score calculation
+- Integration with external APIs
+- Decentralized data storage on the blockchain
+
+## Setup Instructions
+
+## Prerequisites
+- [Node.js](https://nodejs.org/) and npm
+- [Python](https://www.python.org/)
+- [Truffle](https://www.trufflesuite.com/truffle)
+- [Ganache](https://www.trufflesuite.com/ganache)
+
+## 1. Clone the Repository
+
+git clone <repository-url>
+cd my_project
 
 git clone https://github.com/yourusername/decentralized-credit-scoring.git
 cd decentralized-credit-scoring
