@@ -12,17 +12,20 @@ The Decentralized Credit Scoring System offers a user-friendly interface with re
 💡 Real-Time Updates: Users receive instant insights into their credit scores.
 🔗 Transparent & Decentralized: Eliminates the need for centralized credit bureaus.
 📈 Future Plans
-Expand Data Sources: Integrate more data points to enhance credit assessment accuracy.
+
+## Expand Data Sources: Integrate more data points to enhance credit assessment accuracy.
 AI Integration: Implement AI algorithms to provide predictive analytics and personalized financial advice.
 Global Expansion: Adapt the system to various countries and regions for broader adoption.
 User Education: Develop educational resources to help users understand and improve their credit scores.
-🛠️ Technology Stack
+
+## 🛠️ Technology Stack
 Backend: Python, Flask
 Frontend: JavaScript, React
 Blockchain: Solidity, Ethereum
 Database: PostgreSQL
 APIs: Various financial and non-financial data sources
-⚙️ Installation & Setup
+
+## ⚙️ Installation & Setup
 Prerequisites
 Python 3.8+
 Node.js
@@ -60,7 +63,7 @@ This project is a decentralized credit scoring system built using Flask for the 
 ## 1. Clone the Repository
 
 git clone <repository-url>
-cd my_project
+cd decentralized-credit-scoring-system
 
 git clone https://github.com/yourusername/decentralized-credit-scoring.git
 cd decentralized-credit-scoring
@@ -93,11 +96,48 @@ Deploy Smart Contracts:
 
 Start Ganache
 Deploy contracts using Truffle
-bash
-Copy code
+
 truffle migrate --reset
+Set Up the Blockchain Environment
+Install Truffle and Ganache:
+
+npm install -g truffle
+Run Ganache:
+Start Ganache GUI or run it from the command line:
+
+ganache-cli
+Compile and Deploy Smart Contracts:
+Navigate to the contracts directory:
+
+cd ../contracts
+Initialize Truffle Project:
+
+truffle init
+Create a Simple Smart Contract (CreditScore.sol):
+solidity
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract CreditScore {
+    mapping(address => uint) public creditScores;
+
+    function setCreditScore(address user, uint score) public {
+        creditScores[user] = score;
+    }
+
+    function getCreditScore(address user) public view returns (uint) {
+        return creditScores[user];
+    }
+}
+Compile Contracts:
+
+truffle compile
+Deploy Contracts:
+truffle migrate
 
 📂 Project Structure
+
 backend/: Contains the Flask backend code.
 frontend/: Contains the React frontend code.
 contracts/: Contains the Solidity smart contracts.
