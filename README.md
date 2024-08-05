@@ -6,12 +6,19 @@ Welcome to the Decentralized Credit Scoring System project! This innovative solu
 The Decentralized Credit Scoring System offers a user-friendly interface with real-time updates, providing users with insights into their credit scores and financial health. By addressing the limitations of traditional credit scoring models, our system offers a decentralized, transparent, and efficient solution.
 
 📝 Features
+
 🔒 Data Security & Privacy: Blockchain technology ensures data is secure and immutable.
+
 🌐 Comprehensive Data Integration: APIs gather and validate data from multiple sources.
+
 📊 Accurate Credit Assessments: Holistic view of creditworthiness using financial and non-financial data.
+
 💡 Real-Time Updates: Users receive instant insights into their credit scores.
+
 🔗 Transparent & Decentralized: Eliminates the need for centralized credit bureaus.
+
 📈 Future Plans
+
 
 ## Expand Data Sources: Integrate more data points to enhance credit assessment accuracy.
 AI Integration: Implement AI algorithms to provide predictive analytics and personalized financial advice.
