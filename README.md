@@ -146,10 +146,18 @@ truffle migrate
 📂 Project Structure
 
 backend/: Contains the Flask backend code.
+
 frontend/: Contains the React frontend code.
+
 contracts/: Contains the Solidity smart contracts.
+
 migrations/: Database migration files.
+
 tests/: Test cases for the backend and contracts.
+
+## USE THIS FILE FOR TESTING 
+
+credit_data.csv
 
 🌍 Contributing
 We welcome contributions from the community! Please fork the repository and submit pull requests.
