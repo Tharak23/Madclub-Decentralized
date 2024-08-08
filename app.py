@@ -5,9 +5,8 @@ import os
 
 app = Flask(__name__)
 
-# Load the AI model and scaler
+# Load the AI model
 model = joblib.load('credit_model.pkl')
-scaler = joblib.load('scaler.pkl')
 
 # Function to preprocess the data and predict credit scores
 def predict_credit_scores(file_path):
@@ -15,13 +14,12 @@ def predict_credit_scores(file_path):
     data = pd.read_csv(file_path)
     
     # Extract features
-    X = data[['age', 'income', 'loan_amount', 'open_accounts', 'credit_history_length', 'defaulted_before']]
-    
-    # Standardize features
-    X_scaled = scaler.transform(X)
+    features = ['age', 'income', 'loan_amount', 'open_accounts', 'credit_history_length', 'defaulted_before',
+                'education_level', 'employment_status', 'savings', 'debt_to_income_ratio']
+    X = data[features]
     
     # Predict credit scores
-    credit_scores = model.predict(X_scaled)
+    credit_scores = model.predict(X)
     
     # Add predictions to the original data
     data['predicted_credit_score'] = credit_scores
