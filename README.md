@@ -19,24 +19,24 @@ cd decentralized-credit-scoring
 Follow these steps to set up and run the project.
 
 1. Install Flask
-Install Flask to create the web application.
-pip install flask
+- Install Flask to create the web application.
+- pip install flask
 
 2. Install Required Libraries
 Install the necessary libraries including Pandas, Scikit-learn, Joblib, and Web3.
-pip install pandas scikit-learn joblib web3
+- pip install pandas scikit-learn joblib web3
 
 4. Generate Sample Data
 Run the generate_credit_data.py script to create sample credit data.
-python generate_credit_data.py
+- python generate_credit_data.py
 
 4. Train the Model
 Run the train_model.py script to train the machine learning model on the generated data.
-python train_model.py
+- python train_model.py
 
 6. Start the Web Application
 Run the app.py script to start the Flask web application.
-python app.py
+- python app.py
 
 6. Open the Application in a Browser
 After starting the Flask application, open your web browser and navigate to the URL provided by Flask.
