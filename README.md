@@ -16,23 +16,45 @@ cd decentralized-credit-scoring
 
 ## ⚙️ Installation & Setup in broser
 
-- 1.install flask.
-  #pip install flask
-- 2.install pandas scikit-learn joblib web3 file.
-  #pip install pandas scikit-learn joblib web3
-- 3.run generate_credit_data.py file.
-  #python generate_credit_data.py
-- 4.run train_model.py file.
-  #python train_model.py
-- 5.run app.py file.
-  #python app.py
-- 6.click on the browser it will Open in browser
-- 7.downlode the user_date.csv in Repository
-- 8.uplode the file in the browser
-- 9.click on Predict credit score
-- 10.it will give you the Credit score of the following data 
-- 11.you can edit data too
+Follow these steps to set up and run the project.
 
+1. Install Flask
+Install Flask to create the web application.
+pip install flask
+
+2. Install Required Libraries
+Install the necessary libraries including Pandas, Scikit-learn, Joblib, and Web3.
+pip install pandas scikit-learn joblib web3
+
+4. Generate Sample Data
+Run the generate_credit_data.py script to create sample credit data.
+python generate_credit_data.py
+
+4. Train the Model
+Run the train_model.py script to train the machine learning model on the generated data.
+python train_model.py
+
+6. Start the Web Application
+Run the app.py script to start the Flask web application.
+python app.py
+
+6. Open the Application in a Browser
+After starting the Flask application, open your web browser and navigate to the URL provided by Flask.
+
+7. Download the user_data.csv File
+Download the user_data.csv file from the repository. This file contains the data you will use to predict credit scores.
+
+8. Upload the CSV File
+In the web application, use the provided interface to upload the user_data.csv file.
+
+9. Predict Credit Score
+Click on the "Predict Credit Score" button. The system will use the uploaded data to predict the credit scores.
+
+10. View the Credit Scores
+The predicted credit scores will be displayed on the web page.
+
+11. Edit and Experiment with Data
+You can edit the data in user_data.csv or upload a new CSV file to experiment with different inputs and see how they affect the predicted credit scores.
 📝 Features
 
 🔒 Data Security & Privacy: Blockchain technology ensures data is secure and immutable.
