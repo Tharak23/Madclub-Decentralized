@@ -20,17 +20,18 @@ cd decentralized-credit-scoring
   #pip install flask
 - 2.install pandas scikit-learn joblib web3 file.
   #pip install pandas scikit-learn joblib web3
-- 3.run train_model.py file.
-  #python train_model.py
-- 4.run generate_credit_data.py file.
+- 3.run generate_credit_data.py file.
   #python generate_credit_data.py
+- 4.run train_model.py file.
+  #python train_model.py
 - 5.run app.py file.
   #python app.py
-- 6.click on the Open in browser
-- 7.save this file and uplode the file in the browser
-- 8.click on Predict credit score
-- 9.it will give you the Credit score of the following data 
-- 10.you can edit data too
+- 6.click on the browser it will Open in browser
+- 7.downlode the user_date.csv in Repository
+- 8.uplode the file in the browser
+- 9.click on Predict credit score
+- 10.it will give you the Credit score of the following data 
+- 11.you can edit data too
 
 📝 Features
 
