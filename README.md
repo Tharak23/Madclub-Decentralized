@@ -18,8 +18,7 @@ cd decentralized-credit-scoring
 
 Follow these steps to set up and run the project.
 
-1. Install Flask
-- Install Flask to create the web application.
+1. Install Flask Install Flask to create the web application.
 - pip install flask
 
 2. Install Required Libraries
