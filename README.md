@@ -76,54 +76,7 @@ git clone https://github.com/yourusername/decentralized-credit-scoring.git
 cd decentralized-credit-scoring
 Install backend dependencies:
 
-
-cd backend
-pip install -r requirements.txt
-Install frontend dependencies:
-
-
-cd frontend
-npm install
-Setup PostgreSQL:
-
-Create a database named credit_scoring.
-Update the database configuration in backend/config.py.
-Run migrations:
-
-cd backend
-flask db upgrade
-Start the backend server:
-
-flask run
-Start the frontend server:
-
-cd frontend
-npm start
-Deploy Smart Contracts:
-
-Start Ganache
-Deploy contracts using Truffle
-
-truffle migrate --reset
-Set Up the Blockchain Environment
-Install Truffle and Ganache:
-
-npm install -g truffle
-Run Ganache:
-Start Ganache GUI or run it from the command line:
-
-ganache-cli
-Compile and Deploy Smart Contracts:
-Navigate to the contracts directory:
-
-cd ../contracts
-Initialize Truffle Project:
-
-truffle init
-Create a Simple Smart Contract (CreditScore.sol):
-solidity
-
-// SPDX-License-Identifier: MIT
+MIT
 pragma solidity ^0.8.0;
 
 contract CreditScore {
@@ -138,10 +91,6 @@ contract CreditScore {
     }
 }
 Compile Contracts:
-
-truffle compile
-Deploy Contracts:
-truffle migrate
 
 📂 Project Structure
 
