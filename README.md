@@ -5,6 +5,15 @@ Welcome to the Decentralized Credit Scoring System project! This innovative solu
 🚀 Project Overview
 The Decentralized Credit Scoring System offers a user-friendly interface with real-time updates, providing users with insights into their credit scores and financial health. By addressing the limitations of traditional credit scoring models, our system offers a decentralized, transparent, and efficient solution.
 
+## 1. Clone the Repository
+
+git clone <repository-url>
+cd decentralized-credit-scoring-system
+
+git clone https://github.com/yourusername/decentralized-credit-scoring.git
+cd decentralized-credit-scoring
+
+
 ## ⚙️ Installation & Setup in broser
 
 - 1.install flask.
@@ -74,31 +83,6 @@ This project is a decentralized credit scoring system built using Flask for the 
 - [Python](https://www.python.org/)
 - [Truffle](https://www.trufflesuite.com/truffle)
 - [Ganache](https://www.trufflesuite.com/ganache)
-
-## 1. Clone the Repository
-
-git clone <repository-url>
-cd decentralized-credit-scoring-system
-
-git clone https://github.com/yourusername/decentralized-credit-scoring.git
-cd decentralized-credit-scoring
-Install backend dependencies:
-
-MIT
-pragma solidity ^0.8.0;
-
-contract CreditScore {
-    mapping(address => uint) public creditScores;
-
-    function setCreditScore(address user, uint score) public {
-        creditScores[user] = score;
-    }
-
-    function getCreditScore(address user) public view returns (uint) {
-        return creditScores[user];
-    }
-}
-Compile Contracts:
 
 📂 Project Structure
 
