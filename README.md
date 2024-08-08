@@ -33,29 +33,21 @@ Database: PostgreSQL
 APIs: Various financial and non-financial data sources
 
 ## ⚙️ Installation & Setup
-Prerequisites
-Python 3.8+
-Node.js
-PostgreSQL
-Truffle
-Ganache
-Steps
-
-1.install flask.
-#pip install flask.
-2.install pandas scikit-learn joblib web3 file.
-#pip install pandas scikit-learn joblib web3.
-3.run train_model.py file.
-#python train_model.py.
-4.run generate_credit_data.py file.
-#python generate_credit_data.py.
-5.run app.py file.
-#python app.py.
-6.click on the Open in browser.
-7.save this file and uplode the file in the browser.
-8.click on Predict credit score.
-9.it will give you the Credit score of the following data .
-10.you can edit data too.
+- 1.install flask
+- #pip install flask
+- 2.install pandas scikit-learn joblib web3 file
+- #pip install pandas scikit-learn joblib web3
+- 3.run train_model.py file
+- #python train_model.py
+- 4.run generate_credit_data.py file
+- #python generate_credit_data.py
+   5.run app.py file
+- #python app.py
+- 6.click on the Open in browser
+- 7.save this file and uplode the file in the browser
+- 8.click on Predict credit score
+- 9.it will give you the Credit score of the following data 
+- 10.you can edit data too
 
 # Decentralized Credit Scoring System
 
