@@ -10,7 +10,7 @@ The Decentralized Credit Scoring System offers a user-friendly interface with re
 git clone <repository-url>
 cd decentralized-credit-scoring-system
 
-git clone https://github.com/yourusername/decentralized-credit-scoring.git
+git clone https://github.com/Tharak23/decentralized-credit-scoring.git
 cd decentralized-credit-scoring
 
 
